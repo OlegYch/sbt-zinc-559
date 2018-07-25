@@ -1,0 +1,5 @@
+.idea
+target/
+logs
+*.sc
+local-libs.txt
