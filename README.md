@@ -1,1 +1,1 @@
-`sbt ~test:run` and then add or remove fields in `qwe.BuyOrderData2.Filter`
+`sbt 'runMain StreamFilterTest'` should not fail with OOME

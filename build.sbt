@@ -1,1 +1,5 @@
-lazy val root = project.in(file(".")).settings(scalaVersion := "2.12.6", incOptions := incOptions.value.withRecompileAllFraction(1))
+lazy val root = project.in(file(".")).settings(
+  scalaVersion := "2.13.0-RC1",
+  javaOptions += "-Xmx10m",
+  fork := true,
+)
